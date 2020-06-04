@@ -1,0 +1,40 @@
+.site-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../images/header/top.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.site-top_triggers {
+    margin-top: 45px;
+}
+
+.site-top-trigger {
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    width: 230px;
+    height: 57px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+span:nth-child(2) {
+    background-color: rgba(255, 255, 255, .4);
+    border: 1px solid #ffffff;
+}
+
+.site-top-trigger a {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 57px;
+
+}
