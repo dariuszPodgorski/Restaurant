@@ -1,0 +1,77 @@
+.divider {
+    padding: 35px 0 55px 0;
+}
+
+.site-main_about {
+
+    display: flex;
+    background-image: url('../images/main/pattern.png');
+    padding-top: 50px;
+
+}
+
+.site-main_about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.site-main_about-content p {
+    padding: 0 180px;
+    text-align: center;
+
+}
+
+.site-main_about-content-image {
+    padding: 50px 0;
+}
+
+.site-main_about-image {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+
+/* SITE MAIN INGREDIENTS */
+
+.site-main_ingredients {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('../images/main/main_ingredients/bacground_ingredients.jpg');
+
+}
+
+.site-main_ingredients-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 570px;
+    height: 560px;
+    margin: 100px 215px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.site-main_ingredients-content h3 {
+    padding-top: 80px;
+    color: #ffffff;
+
+}
+
+.site-main_ingredients-content p {
+    padding: 30px 80px;
+    color: #ffffff;
+}
+
+
+
+
+.site-main_ingredients-image {
+    border-radius: 50% 50%;
+}
+
+
+
+/* SITE MAIN MENU */

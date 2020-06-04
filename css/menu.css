@@ -3,6 +3,7 @@
     height: 90px;
     background-color: transparent;
     position: fixed;
+    /* position: fixed; */
     /* -moz-box-shadow: inset 0px 0px 0px #000000;
     -webkit-box-shadow: inset 0px 0px 0px #000000;
     box-shadow: inset 10px 40px 40px #000000; */
@@ -29,6 +30,7 @@
 
 .site-nav_user-action {
     margin-left: 56px;
+    margin-left: 10px;
 }
 
 
@@ -60,4 +62,9 @@
 
 .line-decoration {
     margin-top: 25px;
+}
+
+
+.site-main_menu-content_info-description {
+    border-top: 1px solid
 }
