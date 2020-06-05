@@ -1,7 +1,7 @@
 .site-nav {
     display: flex;
     width: 100vw;
-    height: 40px;
+    height: 60px;
     background-color: rgba(0, 0, 0, .2);
     position: fixed;
 }
@@ -18,11 +18,12 @@
     border: none;
     background-color: transparent;
     color: #dab33e;
+    font-size: 26px;
 }
 
 .site-nav_logo-image {
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
 }
 
 .site-nav_user-actions {
