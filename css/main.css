@@ -1,13 +1,11 @@
 .divider {
-    padding: 35px 0 55px 0;
+    padding: 35px 0 10px 0;
 }
 
 .site-main_about {
-
     display: flex;
-    background-image: url('../images/main/pattern.png');
+    background-image: url("../images/main/pattern.png");
     padding-top: 50px;
-
 }
 
 .site-main_about-content {
@@ -21,7 +19,6 @@
 .site-main_about-content p {
     padding: 0 180px;
     text-align: center;
-
 }
 
 .site-main_about-content-image {
@@ -34,14 +31,12 @@
     width: 50vw;
 }
 
-
 /* SITE MAIN INGREDIENTS */
 
 .site-main_ingredients {
     display: flex;
     justify-content: flex-end;
-    background-image: url('../images/main/main_ingredients/bacground_ingredients.jpg');
-
+    background-image: url("../images/main/main_ingredients/bacground_ingredients.jpg");
 }
 
 .site-main_ingredients-content {
@@ -51,13 +46,12 @@
     width: 570px;
     height: 560px;
     margin: 100px 215px;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .site-main_ingredients-content h3 {
     padding-top: 80px;
     color: #ffffff;
-
 }
 
 .site-main_ingredients-content p {
@@ -65,13 +59,117 @@
     color: #ffffff;
 }
 
-
-
-
 .site-main_ingredients-image {
     border-radius: 50% 50%;
 }
 
-
-
 /* SITE MAIN MENU */
+
+.site-main-menu {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/main/pattern.png');
+    padding: 80px 0;
+}
+
+.site-main-menu_content h3 {
+    padding-top: 50px;
+}
+
+
+.site-main-menu_content {
+    margin-left: 70px;
+    width: 550px;
+}
+
+.site-main-menu_content-offer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-main-menu_content-offer_product {
+    padding-top: 25px;
+    width: 90%;
+}
+
+.site-main-menu_content-offer_price {
+    padding-top: 25px;
+    width: 10%;
+}
+
+.site-main-menu_content-offer_description {
+    display: inline-block;
+    margin-top: 10px;
+    border-top: 1px solid #dab33e;
+    font-weight: 200;
+}
+
+/* SITE MAIN REVIEVS */
+
+.site-main-revievs {
+    background-image: url('../images/main/main_revievs/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.site-main-revievs-content {
+    padding: 100px 0;
+    width: 770px;
+    height: 560px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.site-main-revievs-content p {
+    padding: 100px 80px;
+    font-size: 25px;
+    color: white;
+}
+
+
+/* SITE MAIN RESERVATION */
+
+.site-main-reservation {
+    display: flex;
+    background-image: url('../images/main/pattern.png');
+    padding: 50px 150px;
+}
+
+.site-main-reservation_images {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.site-main-reservation_image {
+    margin: 30px;
+}
+
+.site-main-reservation_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.site-main-reservation_trigger {
+    display: inline-block;
+    border: 1px solid #dab33e;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #dab33e;
+    margin-left: 15px;
+}
+
+.site-main-reservation_trigger a {
+    font-size: 16px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+
+    line-height: 40px;
+}
