@@ -1,0 +1,77 @@
+.about {
+    display: flex;
+    width: 100vw;
+    padding-top: 30px;
+    background-image: url('../images/main/pattern.png');
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content p {
+    padding: 20px;
+}
+
+.about-image {
+    display: none;
+}
+
+@media(min-width: 530px) {
+    .about-content {
+        padding: 50px;
+    }
+
+    .about .line-decoration {
+        padding: 20px 0;
+        display: block;
+    }
+
+    .about-content p {
+        padding: 20px 80px;
+
+    }
+
+    .about-content_image {
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .about {
+        padding-top: 100px;
+    }
+
+    .about-content {
+        padding-top: 50px;
+        width: 50vw;
+    }
+
+    .about-content p {
+        padding: 20px 60px;
+    }
+
+    .about-content_image {
+        padding: 30px 0;
+    }
+
+    .about .line-decoration {
+        padding: 20px 0;
+        display: block;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+
+    }
+
+
+}

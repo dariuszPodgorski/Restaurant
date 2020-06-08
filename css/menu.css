@@ -1,34 +1,32 @@
 .site-nav {
     display: flex;
     width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
     height: 60px;
-    background-color: rgba(0, 0, 0, .2);
     position: fixed;
-}
-
-.site-nav_logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
 }
 
 .site-nav_menu-trigger {
     position: absolute;
     top: 15px;
     right: 10px;
-    /* width: 5vw; */
-    border: none;
-    background-color: transparent;
     color: #dab33e;
+    background-color: transparent;
     font-size: 26px;
-    /* margin-right: 20px; */
+    border: none;
+}
 
+.site-nav_logo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .site-nav_logo-image {
-    width: 120px;
-    height: 50px;
+    padding-top: 10px;
+    width: 100px;
+    height: 60px;
 }
 
 .site-nav_user-actions {
@@ -39,27 +37,9 @@
     display: none;
 }
 
-
-@media(min-width: 530px) {
-
-    .site-nav {
-        height: 60px;
-    }
-
-    .site-nav_logo-image {
-        width: 100px;
-        height: 40px;
-    }
-
-    .site-nav_menu-trigger {
-        font-size: 20px;
-    }
-}
-
 @media(min-width: 1024px) {
 
     .site-nav {
-        width: 100vw;
         height: 90px;
     }
 
@@ -67,59 +47,44 @@
         width: 20vw;
     }
 
-    .site-nav_menu-trigger {
-        display: none;
-    }
-
-    site-nav_logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20vw;
-    }
-
     .site-nav_logo-image {
         width: 140px;
-        height: 70px;
+        height: 80px;
     }
 
     .site-nav_user-actions {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 65vw;
+        width: 70vw;
+    }
+
+    .site-nav_user-social-media-actions {
+        display: flex;
+        align-items: center;
+        width: 10vw;
+        margin-right: 50px;
     }
 
     .site-nav_user-action {
-        margin-left: 56px;
-        margin-left: 10px;
+        list-style: none;
+        padding: 0 20px;
     }
 
-
     .site-nav_user-action a {
+        font-size: 21px;
         text-decoration: none;
         font-weight: 500;
         letter-spacing: 1.5px;
         font-family: 'Gentium Book Basic', sans-serif;
-        font-size: 21px;
         color: #ffffff;
     }
 
-    .site-nav_user-social-media-actions {
-        margin-left: 20px;
-        display: flex;
-        align-items: center;
-        width: 15vw;
-        font-size: 22px;
-        color: #dab33e;
-    }
-
     .site-nav_user-social-media-action-trigger {
-        margin-left: 5px;
-        font-size: 22px;
-        color: #dab33e;
         border: none;
         background-color: transparent;
+        color: #dab33e;
+        font-size: 22px;
     }
 
     .site-nav_menu-trigger {

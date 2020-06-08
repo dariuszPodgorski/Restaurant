@@ -1,4 +1,11 @@
-.
+@import url('about.css');
+
+.site-main {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* SITE MAIN INGREDIENTS */
 
 /* .site-main_ingredients {
