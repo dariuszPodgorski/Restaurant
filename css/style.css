@@ -1,7 +1,7 @@
 @import url('reset.css');
 @import url('menu.css');
 @import url('header.css');
-
+@import url('main-about.css');
 @import url('main.css');
 
 body {
@@ -37,6 +37,10 @@ p {
     font-size: 12px;
     line-height: 30px;
     text-align: center;
+}
+
+.divider {
+    padding: 35px 0 10px 0;
 }
 
 

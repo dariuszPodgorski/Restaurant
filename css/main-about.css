@@ -1,0 +1,54 @@
+.about {
+    padding-top: 20px;
+    background-image: url("../images/main/pattern.png");
+    height: 50vh;
+}
+
+.about-content p {
+    padding: 20px 40px;
+    line-height: 20px;
+}
+
+.about-content_image {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+
+.about_image-dish {
+    display: none;
+}
+
+@media(min-width: 530px) {}
+
+@media (min-width: 1024px) {
+
+    .about {
+        padding-top: 50px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+    }
+
+    .about-content p {
+        padding: 0 180px;
+        text-align: center;
+    }
+
+    .about-content_image {
+        padding: 50px 0;
+    }
+
+    .about-image {
+        display: flex;
+        justify-content: center;
+        width: 50vw;
+    }
+}

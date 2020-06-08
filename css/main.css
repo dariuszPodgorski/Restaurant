@@ -1,39 +1,7 @@
-.divider {
-    padding: 35px 0 10px 0;
-}
-
-.site-main_about {
-    display: flex;
-    background-image: url("../images/main/pattern.png");
-    padding-top: 50px;
-}
-
-.site-main_about-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-}
-
-.site-main_about-content p {
-    padding: 0 180px;
-    text-align: center;
-}
-
-.site-main_about-content-image {
-    padding: 50px 0;
-}
-
-.site-main_about-image {
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-}
-
+.
 /* SITE MAIN INGREDIENTS */
 
-.site-main_ingredients {
+/* .site-main_ingredients {
     display: flex;
     justify-content: flex-end;
     background-image: url("../images/main/main_ingredients/bacground_ingredients.jpg");
@@ -65,7 +33,7 @@
 
 /* SITE MAIN MENU */
 
-.site-main-menu {
+/* .site-main-menu {
     display: flex;
     justify-content: center;
     background-image: url('../images/main/pattern.png');
@@ -102,11 +70,11 @@
     margin-top: 10px;
     border-top: 1px solid #dab33e;
     font-weight: 200;
-}
+} */
 
 /* SITE MAIN REVIEVS */
 
-.site-main-revievs {
+/* .site-main-revievs {
     background-image: url('../images/main/main_revievs/bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -127,12 +95,12 @@
     padding: 100px 80px;
     font-size: 25px;
     color: white;
-}
+} */
 
 
 /* SITE MAIN RESERVATION */
 
-.site-main-reservation {
+/* .site-main-reservation {
     display: flex;
     background-image: url('../images/main/pattern.png');
     padding: 50px 150px;
@@ -172,4 +140,4 @@
     text-decoration: none;
 
     line-height: 40px;
-}
+} */
