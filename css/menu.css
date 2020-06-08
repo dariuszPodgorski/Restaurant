@@ -10,22 +10,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 93vw;
+    width: 100vw;
 }
 
 .site-nav_menu-trigger {
-    width: 5vw;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    /* width: 5vw; */
     border: none;
     background-color: transparent;
     color: #dab33e;
     font-size: 26px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 
 }
 
 .site-nav_logo-image {
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
 }
 
 .site-nav_user-actions {
