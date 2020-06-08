@@ -11,7 +11,7 @@
 }
 
 .site-top_triggers {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .divider {
@@ -26,6 +26,7 @@
     height: 30px;
     background-color: rgba(0, 0, 0, .6);
     margin-left: 15px;
+
 }
 
 span:nth-child(2) {
@@ -43,58 +44,30 @@ span:nth-child(2) {
 }
 
 @media (min-width: 530px) {
-
     .site-top {
-        background-image: url('../images/header/top.png');
-        height: 100vh;
+        height: 60vh;
     }
 
     .divider {
         display: block;
     }
 
-    .site-top_triggers {
-        margin-top: 35px;
+    .site-top_trigger {
+
+        width: 140px;
+        height: 40px;
     }
 
-    .site-top-trigger {
-        display: inline-block;
-        border: 1px solid black;
-        text-align: center;
-        width: 230px;
-        height: 57px;
-        background-color: rgba(0, 0, 0, .6);
-        margin-left: 15px;
+    .site-top_trigger a {
+        font-size: 16px;
+        line-height: 40px;
     }
-
-    span:nth-child(2) {
-        background-color: rgba(255, 255, 255, .4);
-        border: 1px solid #ffffff;
-    }
-
-    .site-top-trigger a {
-        font-size: 20px;
-        color: white;
-        font-family: 'Lato', sans-serif;
-        text-decoration: none;
-        text-transform: uppercase;
-        line-height: 57px;
-    }
-
 }
 
 
-
 @media (min-width: 1024px) {
+
     .site-top {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url('../images/header/top.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 100vh;
     }
 
@@ -102,27 +75,17 @@ span:nth-child(2) {
         margin-top: 45px;
     }
 
-    .site-top-trigger {
-        display: inline-block;
-        border: 1px solid black;
-        text-align: center;
-        width: 230px;
-        height: 57px;
-        background-color: rgba(0, 0, 0, .6);
-        margin-left: 15px;
+    .site-top_triggers {
+        padding-top: 0px;
     }
 
-    span:nth-child(2) {
-        background-color: rgba(255, 255, 255, .4);
-        border: 1px solid #ffffff;
+    .site-top_trigger {
+        width: 260px;
+        height: 70px;
     }
 
-    .site-top-trigger a {
-        font-size: 20px;
-        color: white;
-        font-family: 'Lato', sans-serif;
-        text-decoration: none;
-        text-transform: uppercase;
-        line-height: 57px;
+    .site-top_trigger a {
+        font-size: 26px;
+        line-height: 70px;
     }
 }
