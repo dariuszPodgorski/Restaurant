@@ -45,6 +45,7 @@
 
     .about {
         padding-top: 100px;
+        width: 100vw;
     }
 
     .about-content {
@@ -70,7 +71,10 @@
         justify-content: center;
         align-items: center;
         width: 50vw;
+    }
 
+    .about-image_dish {
+        width: 85%;
     }
 
 
