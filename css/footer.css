@@ -1,0 +1,74 @@
+.site-footer {
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.site-footer h4 {
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.site-footer p {
+    color: #ffffff;
+    line-height: 15px;
+}
+
+.site-footer_about {
+    display: none;
+}
+
+.site-footer_opening-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+.site-footer_pay-methods {
+    display: flex;
+
+}
+
+.site-footer_pay-method {
+    padding: 20px 0 10px 10px;
+
+}
+
+.site-footer_pay-method i {
+    color: white;
+    font-size: 26px;
+}
+
+
+.site-footer_location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.site-footer_social-media_actions {
+    display: flex;
+}
+
+.site-footer_social-media_trigger {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 10px;
+
+}
+
+
+
+
+@media(min-width: 1024px) {
+    .site-footer {
+
+        padding: 60px 150px;
+    }
+}
