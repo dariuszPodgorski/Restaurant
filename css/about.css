@@ -13,6 +13,11 @@
     align-items: center;
 }
 
+.about .line-decoration {
+    padding: 20px 0 10px 0;
+    display: block;
+}
+
 .about-content p {
     padding: 20px;
 }
@@ -54,7 +59,7 @@
     }
 
     .about-content p {
-        padding: 20px 60px;
+        padding: 20px 45px;
     }
 
     .about-content_image {
