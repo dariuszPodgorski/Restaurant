@@ -2,6 +2,7 @@
     background-image: url('/images/main/pattern.png');
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 
 }
 
@@ -32,12 +33,10 @@
     .menu-restaurant {
         display: flex;
         flex-direction: row;
-
     }
 
     .menu-restaurant_content {
         width: 45vw;
-
     }
 }
 
@@ -50,17 +49,13 @@
 
     .menu-restaurant_content {
         width: 35vw;
-
     }
 
     .menu-restaurant_content .line-decoration {
         display: block;
         margin: 0 auto;
         padding-bottom: 40px;
-
     }
-
-
 
     .menu-restaurant_content_description {
         padding: 10px 0 25px 0;

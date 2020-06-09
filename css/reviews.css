@@ -1,0 +1,71 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/main/main_revievs/bg_small.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px 0;
+}
+
+.reviews-content h3 {
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.reviews .line-decoration {
+    display: block;
+    padding: 20px 0;
+}
+
+.reviews-content p {
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 530px) {
+
+    .reviews-content {
+        width: 500px;
+        height: 450px;
+    }
+
+    .reviews-content h3 {
+        padding-top: 80px;
+    }
+
+    .reviews .line-decoration {
+        padding: 40px 0;
+    }
+
+    .reviews-content p {
+        padding: 30px 60px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .reviews-content {
+        width: 700px;
+        height: 650px;
+    }
+
+    .reviews-content p {
+        font-size: 24px;
+        line-height: 40px;
+        padding: 50px;
+
+    }
+
+}

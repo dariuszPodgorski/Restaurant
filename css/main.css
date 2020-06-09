@@ -1,6 +1,7 @@
 @import url('about.css');
 @import url('ingredients.css');
 @import url('menu-restaurant.css');
+@import url('reviews.css');
 
 .site-main {
     display: flex;
