@@ -1,0 +1,26 @@
+.menu-restaurant {
+    background-image: url('/images/main/pattern.png');
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-restaurant_content {
+    padding: 0px 30px;
+}
+
+.menu-restaurant_content h3 {
+    padding: 40px 0 25px 0;
+}
+
+.menu-restaurant_content-offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-restaurant_content_description {
+    border-top: 1px solid #dab33e;
+    padding: 5px 0 10px 0;
+    text-align: left;
+    line-height: 18px;
+}
