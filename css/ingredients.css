@@ -9,6 +9,9 @@
 }
 
 .ingredients-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
     height: 400px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -21,7 +24,7 @@
 }
 
 .ingredients-content p {
-    padding: 20px 20px;
+    padding: 50px 20px;
     color: #ffffff;
 }
 
@@ -37,4 +40,32 @@
     height: 80%;
     margin-left: 10px;
 
+}
+
+@media(min-width: 700px) {
+    .ingredients-content {
+        width: 680px;
+        height: 700px;
+    }
+
+    .ingredients-content h3 {
+        padding-top: 40px;
+    }
+
+    .ingredients .line-decoration {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .ingredients-content p {
+        padding: 0 60px;
+
+    }
+
+    .ingredients-image {
+        border-radius: 50% 50%;
+        justify-content: flex-start;
+        align-self: flex-start;
+
+    }
 }

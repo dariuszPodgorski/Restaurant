@@ -9,7 +9,7 @@ body {
 }
 
 h2 {
-    font-size: 29px;
+    font-size: 42px;
     font-weight: 600;
     color: #ffffff;
     text-align: center;
@@ -17,14 +17,14 @@ h2 {
 }
 
 h3 {
-    font-size: 23px;
+    font-size: 32px;
     color: #dab33e;
     font-family: 'Yeseva One', sans-serif;
     text-align: center;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Yeseva One', sans-serif;
     color: #dab33e;
 }
@@ -38,19 +38,19 @@ p {
 
 @media(min-width: 530px) {
     h2 {
-        font-size: 45px;
+        font-size: 52px;
     }
 
     h3 {
-        font-size: 32px;
+        font-size: 42px;
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 32px;
     }
 
     p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 30px;
     }
 }
