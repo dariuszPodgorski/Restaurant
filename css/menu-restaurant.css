@@ -24,3 +24,45 @@
     text-align: left;
     line-height: 18px;
 }
+
+@media(min-width: 530px) {}
+
+
+@media(min-width: 720px) {
+    .menu-restaurant {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .menu-restaurant_content {
+        width: 45vw;
+
+    }
+}
+
+@media(min-width: 1024px) {
+
+    .menu-restaurant {
+        padding: 100px 80px;
+        justify-content: space-around;
+    }
+
+    .menu-restaurant_content {
+        width: 35vw;
+
+    }
+
+    .menu-restaurant_content .line-decoration {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+
+    }
+
+
+
+    .menu-restaurant_content_description {
+        padding: 10px 0 25px 0;
+    }
+}
