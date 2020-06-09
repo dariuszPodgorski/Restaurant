@@ -71,8 +71,13 @@
 
     .reservations-images {
         display: flex;
-        align-self: center;
+        justify-content: center;
+        align-items: center;
         width: 50vw;
+    }
+
+    .reservations-image {
+        height: 80%
     }
 
     .reservations-images img:first-child {
@@ -94,4 +99,28 @@
     }
 
 
+}
+
+
+
+@media (min-width: 1400px) {
+
+    .reservations {
+        padding: 100px 0;
+    }
+
+    .reservations-content {
+        width: 40vw;
+        padding: 0 30px;
+
+    }
+
+    .reservations-images img:first-child {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .reservations-image {
+        height: 100%;
+    }
 }
