@@ -49,25 +49,40 @@
 
 }
 
-@media(min-width: 700px) {
+@media(min-width: 530px) {
     .ingredients-content {
-        width: 680px;
+        width: 500px;
         height: 700px;
     }
 
     .ingredients-content h3 {
-        padding-top: 40px;
+        padding-top: 80px;
+    }
+
+    .ingredients .line-decoration {
+
+        padding: 40px 0;
+
     }
 
     .ingredients-content p {
-        padding: 0 60px;
+        padding: 30px 60px;
 
     }
 
     .ingredients-image {
         border-radius: 50% 50%;
-        justify-content: flex-start;
-        align-self: flex-start;
+        width: 50%;
+        margin-left: 20px;
 
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .ingredients {
+        background-image: url('../images/main/main_ingredients/bacground_ingredients.jpg');
+        justify-content: flex-end;
+        padding-right: 80px;
     }
 }
