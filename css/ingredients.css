@@ -23,8 +23,15 @@
     color: #ffffff;
 }
 
+
+.ingredients .line-decoration {
+    display: block;
+    padding: 20px 0;
+
+}
+
 .ingredients-content p {
-    padding: 50px 20px;
+    padding: 0px 20px;
     color: #ffffff;
 }
 
@@ -50,11 +57,6 @@
 
     .ingredients-content h3 {
         padding-top: 40px;
-    }
-
-    .ingredients .line-decoration {
-        display: block;
-        padding: 20px 0;
     }
 
     .ingredients-content p {

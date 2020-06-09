@@ -1,7 +1,7 @@
 .about {
     display: flex;
     width: 100vw;
-    padding-top: 30px;
+    padding-top: 50px;
     background-image: url('../images/main/pattern.png');
 }
 
@@ -11,6 +11,7 @@
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
+
 }
 
 .about .line-decoration {
@@ -19,7 +20,11 @@
 }
 
 .about-content p {
-    padding: 20px;
+    padding: 20px 60px;
+}
+
+.about-content_image {
+    padding: 30px 0;
 }
 
 .about-image {
@@ -37,12 +42,8 @@
     }
 
     .about-content p {
-        padding: 20px 80px;
+        padding: 20px;
 
-    }
-
-    .about-content_image {
-        padding: 30px 0;
     }
 }
 
