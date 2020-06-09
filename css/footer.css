@@ -63,12 +63,17 @@
 
 }
 
-
-
-
 @media(min-width: 1024px) {
-    .site-footer {
+    .site-footer p {
+        line-height: 25px;
+    }
 
-        padding: 60px 150px;
+    .site-footer h4 {
+        padding-bottom: 10px;
+    }
+
+    .site-footer .line-decoration {
+        display: block;
+        padding-bottom: 10px;
     }
 }
